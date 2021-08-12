@@ -9,4 +9,4 @@ We used TF-IDF method for vectorization of words. A Term frequency (TF) is a sim
 
 As shown in the figure below we used a prepared tweet dataset from kaggle. First of all  we drop out columns except tweet_text and sentiment. We converted the tweet text to lower case and then we removed unnecessary tweet words such as username, retweets, hashtags, links, punctuations, digits etc.And then we fixed contractions. (e.g we converted “i’m”  to “i am” ) Then we removed stop words and single characters such as ‘i’ and ‘a’.  Because any of these don’t help us to identifying sentiment of tweet. After all of this we completed our cleaning stage. For testing our model we pulled tweet data from twitter and we drop out columns except tweet_text . We implemented cleaning process on this tweet data and we send this data to our model for prediction and we recieved realistic results.
 
-![alt text](https://github.com/emreeser/Hotel-Reservation-System/blob/master/ArchitecturalDiagram.png)
+![alt text](https://github.com/emreeser/Covid-19_Vaccine_Sentiment_Analysis/blob/main/Architecture.png)
